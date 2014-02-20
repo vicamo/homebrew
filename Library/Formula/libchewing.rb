@@ -8,6 +8,7 @@ class Libchewing < Formula
   head 'https://github.com/chewing/libchewing.git'
 
   depends_on 'cmake' => :build
+  depends_on 'texinfo' => :build
 
   def install
     mkdir 'libchewing-build' do
